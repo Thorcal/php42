@@ -1,26 +1,59 @@
+h1{
+	text-align:center;
+}
+
+.margin{
+	margin-left: 30px;	
+}
+
+.main-item{
+	color: rgb(116, 116, 116);
+	font-size: 26px;
+}
+
 #menu, #menu ul{
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-#menu li{
-	display: inline-block;
-	margin-left: 30px;
+#menu{
+	display: flex;
+	justify-content: space-evenly;
+	background-color:rgba(236, 236, 236, 0.705);
+	text-align: center;
+	border:solid 2px black;
+	border-radius: 40px;
 }
 
+#menu li{
+	display: inline-block;
+}
 
 #menu ul li{
 	display: inherit;
 }
 
-
-#menu ul{
-	position: absolute;
-}
-
 #menu a{
     text-decoration: none;
     display: block;
-	color: red;
+}
+
+#menu ul{
+	position: absolute;
+	left: -999em;
+    text-align: left;
+    z-index: 1000;
+	background-color:rgba(236, 236, 236, 0.705);
+	border:solid 2px black;
+	border-radius: 4px;
+	font-size: 18px;
+}
+
+#menu li ul{
+	transition: 1s;
+}
+
+#menu li:hover ul {
+    left: auto;
 }
