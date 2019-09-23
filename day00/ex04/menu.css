@@ -1,0 +1,82 @@
+body{
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B1eYNZGrripnnry82/videoblocks-table-at-restaurant-blurred-background_bexkhplitg_thumbnail-full01.png");	
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+	background-color: rgba(39, 16, 7, 0.815);
+	color: beige;
+	font-size: 3vw;
+	text-align:center;
+}
+
+.margin{
+	margin-left: 30px;	
+}
+
+.main-item{
+	color: beige;
+	font-size: 2vw;
+}
+
+#menu, #menu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgba(39, 16, 7, 0.815);
+	text-align: center;
+	border:solid 2px black;
+	border-radius: 40px;
+}
+
+#menu li{
+	display: inline-block;
+}
+
+#menu ul li{
+	display: inherit;
+}
+
+#menu a{
+    text-decoration: none;
+	display: block;
+	color: beige;
+}
+
+#menu ul{
+	position: absolute;
+	left: -999em;
+    text-align: left;
+    z-index: 1000;
+	background-color: rgba(39, 16, 7, 0.815);
+	border:solid 2px black;
+	border-radius: 4px;
+	font-size: 18px;
+}
+
+#menu li:hover ul {
+    left: auto;
+}
+
+.liste{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 20%;
+	width: 10%;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 80%;
+}

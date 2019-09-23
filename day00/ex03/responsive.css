@@ -1,0 +1,72 @@
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+table{
+	  border-collapse: collapse;
+	width: 100%;
+	height: 60%;
+}
+.cell{
+	font-size: 3vw;
+	width: 5.4%;
+	border: solid rgb(255, 255, 255) 2px;
+	font-weight: bold;
+	color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+	text-align: center;
+	width: 100%;
+}
+.atomic-weight{
+	font-size: 1vw;
+	text-align: right;
+	margin-right: 5%;
+	margin-top: 0%;
+	display: inline-block;
+	vertical-align: top;
+}
+.num{
+	font-size: 1vw;
+	text-align: left;
+	margin-left: 5%;
+}
+.non-metal{
+	background-color: rgb(186, 250, 186);
+}
+.transition{
+	background-color: rgb(76, 17, 131);
+}
+.alkali-metal{
+	background-color: rgb(66, 158, 74);
+}
+.alkali-earth-metal{
+	background-color: rgb(53, 92, 201);
+}
+.metalloid{
+	background-color: rgb(140, 213, 255);
+}
+.noble-gas{
+	background-color: rgb(252, 46, 80);
+}
+.unknown{
+	background-color: rgb(137, 197, 58);
+}
+.post-transition-metal{
+	background-color: rgb(255, 206, 46);
+}
+.halogen{
+	background-color: rgb(255, 219, 140);
+}
+.lanthanide{
+	background-color: rgb(247, 68, 152);
+}
+.actinide{
+	background-color: rgb(255, 217, 217);
+}
+.empty{
+	background-color: rgb(255, 255, 255);
+}

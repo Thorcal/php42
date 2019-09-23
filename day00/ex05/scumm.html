@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Day of the 42</title>
+		<link href="scumm.css" rel="stylesheet"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="scumm.js"></script>
+	</head>
+	<body id="body">
+		<div id="header">
+			<img src="resources/day_of_the_42.png" class="title"/>
+			<img src="resources/loupe.png" class="loupe" title="Loupe"/>
+			<a href="http://www.disney.com"><img src="resources/reload.png" class="reload" title="Recommencer au début"/></a>
+			<a href="scumm.html"><img src="resources/close.gif" class="close" title="Déconnecter"/></a>
+		</div>
+		<br/>
+		<div id="middle">
+			<div class="left tab">
+				<img src="resources/arrow.png" title="Avancer" class ="tags" id="avancer"/>
+				<img src="resources/main.png" title="Prendre" class ="tags" id="prendre"/>
+				<img src="resources/oeil.png" title="Regarder" class ="tags" id="regarder"/>
+				<img src="resources/outil.png" title="Utiliser" class ="tags" id="utiliser"/>
+				<img src="resources/chat-icon.png" title="Parler" class ="tags" id="parler"/>
+			</div>
+			<div class="mid tab" id="area">
+				<img src="resources/cluster.jpg"/>
+				<div class="interactable ordi" id="lookable">
+					<div class="arrow-look"></div>
+				</div>
+				<div class="interactable girl" id="talkable">
+					<div class="arrow-speak"></div>
+				</div>
+				<div class="interactable door" id="reachable">
+					<div class="arrow-go">"Vers le foodtruck"</div>
+				</div>
+				<div class="interactable card" id="grabable">
+					<div class="arrow-grab"></div>
+				</div>
+				<div class="interactable norminet" id="usable">
+					<div class="arrow-use"></div>
+				</div>
+			</div>
+			<div class="right tab">
+				<img src="resources/book.png" class="book" title="Le guide du voyageur intergalactique"/>
+				<img src="resources/towel.png" title="Don't forget it !"/>
+				<div class="brick" title="The Wall"></div>
+			</div>
+		</div>
+		<div id="popup" style="visibility: hidden;">
+		</div>
+	</body>
+</html>
